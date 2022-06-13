@@ -21,7 +21,7 @@ fn main() {
         println!("\n");
         let mut line2 = String::new();
         println!("Select a project to view it :");
-        let b2 = std::io::stdin().read_line(&mut line).unwrap();
+        let b2 = std::io::stdin().read_line(&mut line2),.unwrap();
 
    }
 
