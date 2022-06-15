@@ -26,15 +26,28 @@
         <img src="../images/mars.png" alt="Mars" class="img-mid">
             <h3 class="para">
                 So far the only water confirmed on mars is <span class="highlight_white">ice.</span>
-                But mars is thought to have liquid water under its surface witch could be a place for carbon based life could exist.
+                But mars is thought to have liquid water under its surface witch could be a place for carbon based life could be thriving on the red planet.
                 The first water found on mars was found at the <span class="highlight_cyan">sothern polar ice cap</span>
             </h3>
     </div>
-<!-- anywhere on the page 
-<div v-scope="{ count: 0 }">
-    {{ count }}
-    <button @click="count++">inc</button>
-</div>
--->
+    <div class="mars1" v-scope={ count: 0 } v-if="Math.floor(Math.random() * 3) === 0">
+        
+        <h1 class="title"><span class="highlight_cyan">Mercury</h1>
+        <img src="../images/mercury.png" alt="Mars" class="img-mid">
+        <h3 class="para">
+            You might think that mercury is to hot to have water on it since it is the closest planet to the <span class="highlight_orange">sun</span>.
+            But it does have some vary cold places on it cabable of sustanin <span class="highlight_white">ice.</span>.
+            However it can not sustain liquad water on it because it does not have an atmosphere and and liqaud water on it would instantly freaze.
+        </h3>
+    </div>
+    <div class="mars1" v-scope={ count: 0 } v-if="Math.floor(Math.random() * 3) === 0">
+        
+        <h1 class="title"><span class="highlight_blue">Neptune</h1>
+        <img src="../images/neptune.png" alt="Mars" class="img-mid">
+        <h3 class="para">
+            Neptune Is the furthest planet from the sun so its pritty cold on the <span class="highlight_blue">blue</span> planet.
+            
+        </h3>
+    </div>
 </body>
 </html>
